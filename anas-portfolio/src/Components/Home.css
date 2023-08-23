@@ -1,3 +1,4 @@
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -57,7 +58,7 @@
 .twoButtons .about-me{
     height: 3em;
     width: 10em;
-    background-color: #c28fdaee;
+    background-color: #cfb2dcee;
     color: #00000dfc;
     border-radius: 5px;
     margin-left: 1.2em;
@@ -71,18 +72,55 @@
     color: rgb(253, 250, 253);
 }
 
-/* 
-.navbar ul{
+.midContainer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.midContainer .navbar{
+    display: flex;
+    align-items: flex-end;
+}
+
+.midContainer .navbar ul{
     color: white;
+}
+
+.midContainer .navbar ul li{
     list-style-type: none;
 }
 
-.navbar ul li{
-    display: inline;
-    padding: 1em;
+.midContainer .scrollInfo {
+    display: flex;
+    align-items: flex-end;
+}
+.midContainer .scrollInfo span img{
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
 }
 
+.midContainer .scrollInfo span p{
+    writing-mode: vertical-lr;
+   
+    color: white;
+    font-size: 10px;
+    line-height: normal;
+    text-orientation:upright;
+}
+
+
+.myImage img{
+    height: 365px;
+    width: 265px;
+    border-radius: 120px 120px 5px 5px;
+    box-shadow: rgba(207, 182, 206, 0.4) 0px 30px 90px;
+
+}
 .navbar ul li img{
     height: 20px;
     width: 20px;
-} */
+    cursor:pointer;
+    margin: 0.5em;
+} 
