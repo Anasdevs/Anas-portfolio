@@ -1,8 +1,8 @@
 import React from "react";
-import './Navbar.css'
+import './Home.css'
 import themeButton from './sun-line.png'
 
-export default function Navbar(){
+export default function Home(){
     return(
         <div className="main">
         <div className="header">
