@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 import themeButton from './sun-line.png'
-import anasImage2 from './anasImage6.jpeg'
+import anasImage2 from './anasImage7.png'
 import linkedin from './linkedin.svg'
 import github from './github.svg'
 import instagram from './instagram.svg'
