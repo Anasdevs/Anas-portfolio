@@ -1,0 +1,88 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 6em;
+
+}
+
+.myName h2{
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+}
+
+.themeIcon{
+    cursor: pointer;
+}
+.myInfo{
+    margin-top: 5%;
+}
+.myInfo h4{
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.811);
+    text-align: center;
+}
+
+.myInfo h2{
+    color: rgb(255, 255, 255);
+    font-size: 2em;
+    letter-spacing: 0.1em;
+    text-align: center;
+    font-weight: 800;
+}
+
+.twoButtons{
+    text-align: center;
+    margin: 1.5em;
+    
+}
+
+.twoButtons .download-cv{
+    height: 3em;
+    width: 10em;
+    background-color: transparent;
+    border: 2px solid #a882ba;
+    color: rgb(253, 250, 253);
+    border-radius: 5px;
+    margin-left: 1.2em;
+    cursor: pointer;
+}
+
+.twoButtons .download-cv:hover{
+    background-color: #c28fdaee;
+    color: #00000dfc;
+   
+}
+
+.twoButtons .about-me{
+    height: 3em;
+    width: 10em;
+    background-color: #c28fdaee;
+    color: #00000dfc;
+    border-radius: 5px;
+    margin-left: 1.2em;
+    cursor: pointer;
+
+}
+
+.twoButtons .about-me:hover{
+    background-color: transparent;
+    border: 2px solid #a882ba;
+    color: rgb(253, 250, 253);
+}
+
+/* 
+.navbar ul{
+    color: white;
+    list-style-type: none;
+}
+
+.navbar ul li{
+    display: inline;
+    padding: 1em;
+}
+
+.navbar ul li img{
+    height: 20px;
+    width: 20px;
+} */
