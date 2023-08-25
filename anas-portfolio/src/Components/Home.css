@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     margin: 2em 6em;
-
 }
 
 .myName h2{
@@ -15,9 +14,11 @@
 .themeIcon{
     cursor: pointer;
 }
+
 .myInfo{
     margin-top: 5%;
 }
+
 .myInfo h4{
     font-size: 0.8em;
     color: rgba(255, 255, 255, 0.811);
@@ -34,8 +35,7 @@
 
 .twoButtons{
     text-align: center;
-    margin: 1.5em;
-    
+    margin: 1.5em;  
 }
 
 .twoButtons .download-cv{
@@ -63,7 +63,6 @@
     border-radius: 5px;
     margin-left: 1.2em;
     cursor: pointer;
-
 }
 
 .twoButtons .about-me:hover{
@@ -110,17 +109,16 @@
     text-orientation:upright;
 }
 
-
 .myImage img{
     height: 365px;
     width: 265px;
     border-radius: 120px 120px 5px 5px;
     box-shadow: rgba(207, 182, 206, 0.4) 0px 30px 90px;
-
 }
+
 .navbar ul li img{
     height: 20px;
     width: 20px;
     cursor:pointer;
     margin: 0.5em;
-} 
+}

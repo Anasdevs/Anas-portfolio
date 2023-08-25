@@ -6,6 +6,7 @@ import linkedin from './linkedin.svg'
 import github from './github.svg'
 import instagram from './instagram.svg'
 import arrowdown from './arrowdown.svg'
+import Skills from "./Skills";
 
 
 
@@ -51,7 +52,7 @@ export default function Home(){
                 Scroll Down <img src={arrowdown} alt="" /> </p></span>
         </div>
         </div>
+        <Skills/>
         </div>
-
 );
 }
