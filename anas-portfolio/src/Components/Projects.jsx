@@ -43,7 +43,7 @@ const projectsData = [
   },
   {
     title: 'File Downloader',
-    description: 'File Downloader is a simple web application that allows users to download files from a given URL. It provides an easy way to download files directly by pasting the desired URL into the input field.',
+    description: "File Downloader is a simple web application that allows users to download files from a given URL. It provides an easy way to download files directly by pasting the desired URL into the input field. The downloaded file will be saved to your device's default download location.",
     techUsed: ['Wordpress'],
     githubLink: 'https://github.com/yourusername/project1',
     screenshot: filedownloaderImg,
