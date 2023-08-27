@@ -22,17 +22,21 @@
 .colored-p{
     color: rgb(206, 152, 247);
 }
+
 .about-text p{
     color: white;
     flex-wrap: wrap;
-    margin: 0 5%;
+    margin: 2% 5%;
+
+    font-size: 1.2em;
 }
 .about-image img{
-    height: 400px;
-    
-    width: 400px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
-
-    box-shadow: rgba(209, 201, 201, 0.09) 0px 2px 1px, rgba(145, 137, 137, 0.09) 0px 4px 2px, rgba(237, 235, 235, 0.09) 0px 8px 4px, rgba(209, 198, 198, 0.09) 0px 16px 8px, rgba(188, 182, 182, 0.09) 0px 32px 16px;
+    background: radial-gradient(circle at top, #fff, #ddd);
+    box-shadow: rgba(207, 182, 206, 0.4) 0px 20px 60px;
+    animation: rotateBorder 6s linear infinite;
+  border: 1px double rgba(255, 255, 255, 0.468);
+  transform-origin: center;
 }
-

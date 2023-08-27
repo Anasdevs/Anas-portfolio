@@ -17,6 +17,8 @@ import gitImg from './Images/git.png'
 import githubImg from './Images/githubb.png'
 import apiImg from './Images/api.png'
 
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
 
 
 export default function Skills() {
@@ -39,19 +41,35 @@ export default function Skills() {
     { image: googlecloudImg, title: 'Cloud' },
   ];
 
-  
+  const [ref, inView] = useInView({
+    triggerOnce: false,
+  });
+
   return (
     <div className="skills-main">
-      <h1>Skills</h1>
+      <motion.h1
+        ref={ref}
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
+        transition={{ duration: 0.5 }}
+      >
+        Skills
+      </motion.h1>
       <div className="skills-container">
         <div className="skills">
           {skillsData.map((skill, index) => (
-            <div className={`skill skill-${index}`} key={index}>
+            <motion.div
+              className={`skill skill-${index}`}
+              key={index}
+              initial={{ opacity: 0, y: 50 }}
+              animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
+              transition={{ duration: 0.5, delay: index * 0.10 }}
+            >
               <div className="skill-content">
                 {skill.image && <img src={skill.image} alt="" />}
                 {skill.title && <h3 className="skill-title">{skill.title}</h3>}
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
       </div>

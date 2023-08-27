@@ -50,53 +50,6 @@ background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
   }
 
 
-  /* .skill:first-child{
-    border: 5px solid orangered;
-  }
-
-  .skill:nth-child(2){
-    border: 5px solid #2020e8;
-
-    
-  }
-
-
-.skill:nth-child(4){
-    border: 5px solid orangered;
-
-}
-
-.skill:nth-child(5){
-    border: 5px solid orangered;
-
-}
-
-.skill:nth-child(6){
-    border: 5px solid orangered;
-
-}
-
-.skill:nth-child(7){
-    border: 5px solid orangered;
-
-}
-
-.skill:nth-child(8){
-    border: 5px solid orangered;
-
-}
-
-.skill:nth-child(9){
-    border: 5px solid orangered;
-
-}
-
- .skill:nth-child(10){
-    border: 5px solid rgb(171, 100, 74);
-
-  }
-
-   */
   .skill:hover {
     transform: scale(1.1);
     background-color: #444;
