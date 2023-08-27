@@ -15,14 +15,19 @@ import reactImg from './Images/react.png'
 import djangoImg from './Images/django.png'
 import mysqlImg from './Images/mysql.png'
 import wordpressImg from './Images/wordpress.png'
-
+import htmlImg from './Images/html.png'
+import cssImg from './Images/css.png'
+import javascriptImg from './Images/javascript.png'
 
 // Define a mapping between tech names and their corresponding images
 const techImages = {
   'React': reactImg, // Replace with the actual path to the image
   'Django': djangoImg, // Replace with the actual path to the image
   'MySql': mysqlImg,
-  'Wordpress': wordpressImg, // Replace with the actual path to the image
+  'Wordpress': wordpressImg,
+  'Html': htmlImg,
+  'CSS': cssImg, 
+  'Javascript': javascriptImg,
 
 };
 
@@ -44,13 +49,13 @@ const projectsData = [
   {
     title: 'File Downloader',
     description: "File Downloader is a simple web application that allows users to download files from a given URL. It provides an easy way to download files directly by pasting the desired URL into the input field. The downloaded file will be saved to your device's default download location.",
-    techUsed: ['Wordpress'],
+    techUsed: ['Html', 'CSS', 'Javascript'],
     githubLink: 'https://github.com/yourusername/project1',
     screenshot: filedownloaderImg,
   },
   {
     title: 'TextUtils',
-    description: 'The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use.',
+    description: 'TextUtils provides you the facility of manipulating the entered text. You can easily convert your text to uppercase or lowercase. Now only this you can also remove the white spaces, copy text. It also tells you the time required to read the text. You can easily copy your modified text and use it.',
     techUsed: ['React'],
     githubLink: 'https://github.com/yourusername/project1',
     screenshot: textutils,

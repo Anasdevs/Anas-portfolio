@@ -8,7 +8,7 @@ import instagram from './instagram.svg'
 import arrowdown from './arrowdown.svg'
 import Skills from "./Skills";
 import Projects from "./Projects";
-
+import About from "./About";
 
 
 export default function Home(){
@@ -53,6 +53,7 @@ export default function Home(){
                 Scroll Down <img src={arrowdown} alt="" /> </p></span>
         </div>
         </div>
+        <About/>
         <Skills/>
         <Projects/>
         </div>
