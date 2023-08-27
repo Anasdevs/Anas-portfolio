@@ -100,9 +100,12 @@
 
 }
 
+.midContainer .scrollInfo{
+    position: sticky;
+}
+
 .midContainer .scrollInfo span p{
     writing-mode: vertical-lr;
-   
     color: white;
     font-size: 10px;
     line-height: normal;

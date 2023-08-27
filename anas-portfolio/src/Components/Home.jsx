@@ -7,6 +7,7 @@ import github from './github.svg'
 import instagram from './instagram.svg'
 import arrowdown from './arrowdown.svg'
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 
 
@@ -53,6 +54,7 @@ export default function Home(){
         </div>
         </div>
         <Skills/>
+        <Projects/>
         </div>
 );
 }
