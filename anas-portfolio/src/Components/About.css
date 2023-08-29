@@ -3,7 +3,6 @@
     color: white;
     text-align: center;
     font-size: 3em;
-
 }
 
 .about-main-component{
@@ -27,7 +26,6 @@
     color: white;
     flex-wrap: wrap;
     margin: 2% 5%;
-
     font-size: 1.2em;
 }
 .about-image img{
@@ -44,8 +42,7 @@
 
 @media (max-width: 768px) {
     .about-content {
-        flex-direction: column; /* Stack the elements vertically */
-        border: none; /* Remove border for better mobile layout */
-        margin: 2rem 0; /* Adjust margin for better spacing */
+        flex-direction: column; 
+        border: none;
       }
 }

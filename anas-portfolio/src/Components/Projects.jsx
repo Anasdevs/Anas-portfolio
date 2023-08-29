@@ -4,13 +4,11 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-
-import project1Screenshot from './Images/css.png'; 
 import ams from './Images/ams.png';
 import filedownloaderImg from './Images/filedownloader.png'
 import shaders from './Images/shaders.png'
 import textutils from './Images/textutils.png'
-import githubImg from './github.svg';
+import githubImg from './Images/github.svg';
 import reactImg from './Images/react.png'
 import djangoImg from './Images/django.png'
 import mysqlImg from './Images/mysql.png'
@@ -19,14 +17,13 @@ import htmlImg from './Images/html.png'
 import cssImg from './Images/css.png'
 import javascriptImg from './Images/javascript.png'
 
-// Define a mapping between tech names and their corresponding images
 const techImages = {
-  'React': reactImg, // Replace with the actual path to the image
-  'Django': djangoImg, // Replace with the actual path to the image
+  'React': reactImg,
+  'Django': djangoImg,
   'MySql': mysqlImg,
   'Wordpress': wordpressImg,
   'Html': htmlImg,
-  'CSS': cssImg, 
+  'CSS': cssImg,
   'Javascript': javascriptImg,
 
 };
@@ -34,14 +31,14 @@ const techImages = {
 const projectsData = [
   {
     title: 'Attendance Management System',
-    description: 'The Attendance Management System has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use.',
+    description: 'AMS has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use.',
     techUsed: ['React', 'Django', 'MySql'],
     githubLink: 'https://github.com/yourusername/project1',
     screenshot: ams,
   },
   {
     title: 'Shaders.shop',
-    description: 'Shaders.shop is a dynamic e-commerce platform meticulously crafted using the power of WordPress and WooCommerce. As an innovative online destination, it stands as a showcase of both modern design aesthetics and seamless functionality.',
+    description: 'Shaders.shop is a dynamic e-commerce platform meticulously crafted using the power of WordPress and WooCommerce. As an innovative online destination, it stands as a showcase of both modern design aesthetics and seamless functionality. ',
     techUsed: ['Wordpress'],
     githubLink: 'https://github.com/yourusername/project1',
     screenshot: shaders,
@@ -63,45 +60,44 @@ const projectsData = [
 ];
 
 export default function Projects() {
-    return (
-      <div className="projects-main">
-        <h1>
-          My <span className="colored-text">Projects</span>
-        </h1>
-        <div className="project-grid-main">
-          <div className="projects-grid">
-           <Slider
+  return (
+    <div className="projects-main">
+      <h1>
+        My <span className="colored-text">Projects</span>
+      </h1>
+      <div className="project-grid-main">
+        <div className="projects-grid">
+          <Slider
             infinite={true}
             nextArrow={<div className="slick-arrow next-arrow"></div>}
             prevArrow={<div className="slick-arrow prev-arrow"></div>}
-            autoplay={true} 
-            autoplaySpeed={1500} 
-            pauseOnHover={true} 
+            autoplay={true}
+            autoplaySpeed={1500}
+            pauseOnHover={true}
             mobileFirst={true}
           >
-              {projectsData.map((project, index) => (
-                <div className="project-card" key={index}>
-                  <img src={project.screenshot} alt={`Screenshot of ${project.title}`} />
-                  <hr />
-                  <h2>{project.title}</h2>
-                  <div className="tech-stack">
-                    <p>Tech Stack:</p>
-                    {project.techUsed.map((tech, index) => (
-                      <img key={index} src={techImages[tech]} alt={tech} className="tech-icon" />
-                    ))}
-                  </div>
-                  <p>{project.description}</p>
-                  <hr />
-                  <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
-                    <img src={githubImg} alt="GitHub" />
-                    GitHub
-                  </a>
+            {projectsData.map((project, index) => (
+              <div className="project-card" key={index}>
+                <img src={project.screenshot} alt={`Screenshot of ${project.title}`} />
+                <hr />
+                <h2>{project.title}</h2>
+                <div className="tech-stack">
+                  <p>Tech Stack:</p>
+                  {project.techUsed.map((tech, index) => (
+                    <img key={index} src={techImages[tech]} alt={tech} className="tech-icon" />
+                  ))}
                 </div>
-              ))}
-            </Slider>
-          </div>
+                <p>{project.description}</p>
+                <hr />
+                <a href={project.githubLink} target="_blank" rel="noopener noreferrer" className="github-link">
+                  <img src={githubImg} alt="GitHub" />
+                  GitHub
+                </a>
+              </div>
+            ))}
+          </Slider>
         </div>
       </div>
-    );
-  }
-  
+    </div>
+  );
+}

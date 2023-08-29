@@ -1,13 +1,13 @@
 import React from 'react';
 import './About.css';
 import { motion } from 'framer-motion';
-import anasImage8 from './anasImage8.jpg';
+import anasImage8 from './Images/anasImage8.jpg';
 import { Element } from 'react-scroll';
 import { useInView } from 'react-intersection-observer';
 
 export default function About() {
     const [ref, inView] = useInView({
-        triggerOnce: false, // Trigger animation once
+        triggerOnce: false,
     });
 
     return (
@@ -19,7 +19,7 @@ export default function About() {
                         <motion.img
                             ref={ref}
                             src={anasImage8}
-                            alt=""
+                            alt="image"
                             initial={{ opacity: 0, y: 50 }}
                             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
                             transition={{ duration: 0.5 }}

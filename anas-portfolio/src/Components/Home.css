@@ -5,6 +5,11 @@
     margin: 2em 6em;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .myName h2{
     font-size: 1em;
     color: white;
@@ -125,3 +130,31 @@
     cursor:pointer;
     margin: 0.5em;
 }
+
+.footer {
+    background-color: #2d2a50;
+    color: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+
+  @media (max-width:768px){
+    .footer {
+        padding: 5px 0;
+      }
+  }

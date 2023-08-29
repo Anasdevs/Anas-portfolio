@@ -2,7 +2,7 @@ import React, { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim";
 
-import Home from "./Components/Home"; // Import your Home component here
+import Home from "./Components/Home"; 
 
 const App = () => {
     const particlesInit = useCallback(async (engine) => {
