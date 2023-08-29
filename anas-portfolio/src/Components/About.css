@@ -40,3 +40,12 @@
   border: 1px double rgba(255, 255, 255, 0.468);
   transform-origin: center;
 }
+
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* Stack the elements vertically */
+        border: none; /* Remove border for better mobile layout */
+        margin: 2rem 0; /* Adjust margin for better spacing */
+      }
+}

@@ -53,7 +53,7 @@ export default function Skills() {
         animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
         transition={{ duration: 0.5 }}
       >
-        Skills
+        My Skillset
       </motion.h1>
       <div className="skills-container">
         <div className="skills">

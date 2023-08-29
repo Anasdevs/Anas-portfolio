@@ -1,0 +1,88 @@
+.contact-main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+  
+  .contact-main h1 {
+    margin: 6% 0 3% 0;
+    color: white;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .contact-form-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-form {
+    display: flex;
+    width: 100%;
+    max-width: 1200px; /* Limit maximum width */
+    margin: 3rem;
+  }
+  
+  .contact-form-left {
+    /* padding: 2rem; */
+    flex: 1;
+  }
+  
+  .contact-form-right {
+    padding: 2rem;
+    flex: 1;
+  }
+  
+  .contact-image {
+    max-width: 100%; /* Make the image responsive */
+    margin-bottom: 1rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    background-color: rgba(234, 233, 235, 0.815);
+  }
+  
+  .contact-form-left h1{
+    text-align: left;
+  }
+ .contact-form-left p {
+    text-align: justify;
+    color: rgba(206, 206, 228, 0.678);
+  }
+  
+  .contact-button {
+    background: linear-gradient(to right, #304369, #152c52);
+    border: 2px solid rgb(7, 30, 205);
+    color: white;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    width: 25%;
+  }
+  
+
+
+  @media (max-width: 768px) {
+    .contact-form {
+      flex-direction: column; /* Stack the elements vertically */
+      border: none; /* Remove border for better mobile layout */
+      margin: 2rem 0; /* Adjust margin for better spacing */
+    }
+  
+    .contact-form-left,
+    .contact-form-right {
+      border: none; /* Remove borders on mobile */
+      padding: 2rem; /* Add padding for better mobile spacing */
+      text-align: center;
+    }
+  }

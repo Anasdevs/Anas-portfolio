@@ -12,6 +12,7 @@ import arrowdown from './arrowdown.svg'
 import Skills from "./Skills";
 import Projects from "./Projects";
 import About from "./About";
+import Contact from "./Contact";
 
 export default function Home(){
     return (
@@ -56,7 +57,7 @@ export default function Home(){
                     to="about"
                     spy={true}
                     smooth={true}
-                    offset={-50} // Adjust offset as needed
+                    offset={-50} 
                     duration={500}
                 >
                     <button className="about-me">About Me</button>
@@ -67,9 +68,9 @@ export default function Home(){
             
             <div className="midContainer">
             <motion.div
-                    initial={{ opacity: 0, y: 100 }} // Initial animation state
-                    animate={{ opacity: 1, y: 0 }} // Animation when component enters the screen
-                    transition={{ duration: 1 }} // Animation duration
+                    initial={{ opacity: 0, y: 100 }}
+                    animate={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }} 
                     className="navbar"
                 >
                     <InViewAnimation>
@@ -81,9 +82,9 @@ export default function Home(){
     </InViewAnimation>
                 </motion.div>
                 <motion.div
-                    initial={{ opacity: 0, y: 100 }} // Initial animation state
-                    animate={{ opacity: 1, y: 0 }} // Animation when component enters the screen
-                    transition={{ duration: 1 }} // Animation duration
+                    initial={{ opacity: 0, y: 100 }} 
+                    animate={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }} 
                     className="myImage"
                 >
                      <InViewAnimation>
@@ -92,13 +93,21 @@ export default function Home(){
                 </motion.div>
 
                 <motion.div
-                    initial={{ opacity: 0, y: 100 }} // Initial animation state
-                    animate={{ opacity: 1, y: 0 }} // Animation when component enters the screen
-                    transition={{ duration: 1 }} // Animation duration
+                    initial={{ opacity: 0, y: 100 }}  
+                    animate={{ opacity: 1, y: 0 }} 
+                    transition={{ duration: 1 }} 
                     className="scrollInfo"
                 >
                     <span>
+                    <Link
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    offset={-50} 
+                    duration={500}
+                >
                         <p>Scroll Down <img src={arrowdown} alt="" /></p>
+                        </Link>
                         </span>
                </motion.div>
             </div>
@@ -110,6 +119,9 @@ export default function Home(){
         </Element>
         <Element>
                 <Projects />
+                </Element>
+                <Element>
+                <Contact />
                 </Element>
                 </div>
     );

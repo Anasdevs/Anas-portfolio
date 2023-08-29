@@ -72,13 +72,12 @@ export default function Projects() {
           <div className="projects-grid">
            <Slider
             infinite={true}
-            slidesToShow={3} 
-            slidesToScroll={1}
             nextArrow={<div className="slick-arrow next-arrow"></div>}
             prevArrow={<div className="slick-arrow prev-arrow"></div>}
             autoplay={true} 
-            autoplaySpeed={1000} 
+            autoplaySpeed={1500} 
             pauseOnHover={true} 
+            mobileFirst={true}
           >
               {projectsData.map((project, index) => (
                 <div className="project-card" key={index}>
