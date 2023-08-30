@@ -157,4 +157,8 @@ a{
     .footer {
         padding: 5px 0;
       }
+
+      .myName{
+        display: none;
+      }
   }
