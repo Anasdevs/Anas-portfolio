@@ -33,7 +33,7 @@ export default function About() {
                         >
                             I'm a web developer proficient in{" "}
                             <span className="colored-p">
-                                ReactJS, NextJS, JavaScript, CSS, Django, MySQL, and Canva{" "}
+                                ReactJS, NextJS, JavaScript, HTML, CSS, Django & MySQL.{" "}
                             </span>.
                         </motion.p>
                         <motion.p
