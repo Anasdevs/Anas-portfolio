@@ -33,28 +33,28 @@ const projectsData = [
     title: 'Attendance Management System',
     description: 'AMS has been specifically designed to automate and streamline the attendance management process. It offers a digital platform that efficiently records, monitors, and analyzes student attendance data, replacing the traditional manual methods currently in use.',
     techUsed: ['React', 'Django', 'MySql'],
-    githubLink: 'https://github.com/yourusername/project1',
+    githubLink: 'https://github.com/anasdevs',
     screenshot: ams,
   },
   {
     title: 'Shaders.shop',
     description: 'Shaders.shop is a dynamic e-commerce platform meticulously crafted using the power of WordPress and WooCommerce. As an innovative online destination, it stands as a showcase of both modern design aesthetics and seamless functionality. ',
     techUsed: ['Wordpress'],
-    githubLink: 'https://github.com/yourusername/project1',
+    githubLink: 'https://shaders.shop/',
     screenshot: shaders,
   },
   {
     title: 'File Downloader',
     description: "File Downloader is a simple web application that allows users to download files from a given URL. It provides an easy way to download files directly by pasting the desired URL into the input field. The downloaded file will be saved to your device's default download location.",
     techUsed: ['Html', 'CSS', 'Javascript'],
-    githubLink: 'https://github.com/yourusername/project1',
+    githubLink: 'https://anasdevs.github.io/File-Downloader/',
     screenshot: filedownloaderImg,
   },
   {
     title: 'TextUtils',
     description: 'TextUtils provides you the facility of manipulating the entered text. You can easily convert your text to uppercase or lowercase. Now only this you can also remove the white spaces, copy text. It also tells you the time required to read the text. You can easily copy your modified text and use it.',
     techUsed: ['React'],
-    githubLink: 'https://github.com/yourusername/project1',
+    githubLink: 'https://github.com/anasdevs',
     screenshot: textutils,
   }
 ];
