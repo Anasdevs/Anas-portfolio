@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import ams from './Images/ams.png';
 import filedownloaderImg from './Images/filedownloader.png'
+import shortyScreenshot from './Images/shorty.png'
 import shaders from './Images/shaders.png'
 import textutils from './Images/textutils.png'
 import githubImg from './Images/github.svg';
@@ -42,6 +43,13 @@ const projectsData = [
     techUsed: ['Wordpress'],
     githubLink: 'https://shaders.shop/',
     screenshot: shaders,
+  },
+  {
+    title: 'Shorty URL Shortener',
+    description: "Shorty URL Shortener is a web application that allows users to shorten long URLs, making them easier to share and manage. It's deployed on a Linux server and uses Nginx as a reverse proxy server. Additionally, it includes click analytics to track link usage.",
+    techUsed: ['Django', 'Html', 'CSS', 'Javascript'],
+    githubLink: 'https://github.com/Anasdevs/Shorty-URL-Shortener', 
+    screenshot: shortyScreenshot, 
   },
   {
     title: 'File Downloader',
