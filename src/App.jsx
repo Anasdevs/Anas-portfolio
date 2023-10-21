@@ -10,7 +10,6 @@ const App = () => {
     }, []);
 
     const particlesLoaded = useCallback(async (container) => {
-        console.log(container);
     }, []);
 
     return (
