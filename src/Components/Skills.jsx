@@ -2,8 +2,8 @@ import React from 'react';
 import './Skills.css';
 import htmlImg from './Images/html.png'
 import cssImg from './Images/css.png'
-import bootstrapImg from './Images/bootstrap.png'
-import javascriptImg from './Images/javascript.png'
+import bootstrapImg from './Images/bootstrapImg.png'
+import javascriptImg from './Images/javascript.svg'
 import reactImg from './Images/react.png'
 import nextImg from './Images/nextjs.png'
 import djangoImg from './Images/django.png'
@@ -11,11 +11,12 @@ import nginxImg from './Images/nginx.png'
 import mysqlImg from './Images/mysql.png'
 import wordpressImg from './Images/wordpress.png'
 import pythonImg from './Images/python.png'
-import javaImg from './Images/java.png'
-import googlecloudImg from './Images/googlecloud.png'
-import gitImg from './Images/git.png'
+import javaImg from './Images/javaImg.svg'
+import googlecloudImg from './Images/googleCloud.svg'
+import gitImg from './Images/gitImg.svg'
 import githubImg from './Images/githubb.png'
 import apiImg from './Images/api.png'
+import aws from './Images/aws.svg'
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -39,6 +40,8 @@ export default function Skills() {
     { image: pythonImg, title: 'Python' },
     { image: javaImg, title: 'Java' },
     { image: googlecloudImg, title: 'Cloud' },
+    { image: aws, title: 'AWS' },
+
   ];
 
   const [ref, inView] = useInView({

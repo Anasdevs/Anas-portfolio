@@ -16,7 +16,7 @@ import mysqlImg from './Images/mysql.png'
 import wordpressImg from './Images/wordpress.png'
 import htmlImg from './Images/html.png'
 import cssImg from './Images/css.png'
-import javascriptImg from './Images/javascript.png'
+import javascriptImg from './Images/javascript.svg'
 
 const techImages = {
   'React': reactImg,
