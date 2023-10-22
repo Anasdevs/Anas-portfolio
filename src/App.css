@@ -1,0 +1,7 @@
+.animated-cursor {
+    z-index: 9999;
+  }
+  
+  .home {
+    z-index: 9998;
+  }
