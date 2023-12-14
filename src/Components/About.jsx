@@ -34,7 +34,7 @@ export default function About() {
                             I'm a web developer proficient in{" "}
                             <span className="colored-p">
                                 ReactJS, NextJS, JavaScript, HTML, CSS, Django & MySQL.{" "}
-                            </span>.
+                            </span>
                         </motion.p>
                         <motion.p
                             initial={{ opacity: 0, y: 50 }}
@@ -42,7 +42,7 @@ export default function About() {
                             transition={{ duration: 0.5, delay: 0.4 }}
                         >
                             I've created numerous projects like{" "}
-                            <span className="colored-p">Shaders, AMS, Nerdsflow, Edhub etc. </span>
+                            <span className="colored-p">AMS, Stockflow, Shorty, Shaders etc. </span>
                         </motion.p>
                         <motion.p
                             initial={{ opacity: 0, y: 50 }}

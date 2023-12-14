@@ -1,9 +1,8 @@
-import { React, useState, useEffect } from "react";
+import { React} from "react";
 import { motion } from 'framer-motion'; 
 import { Link, Element } from "react-scroll";
 import { useInView } from 'react-intersection-observer';
 import './Home.css'
-import themeButton from './Images/sun-line.png'
 import anasImage2 from './Images/anasImage7.png'
 import linkedin from './Images/linkedin.svg'
 import github from './Images/github.svg'
@@ -135,7 +134,6 @@ export default function Home() {
                 <Contact />
             </Element>
             <footer className="footer">
-                <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
                 <p>Developed with ❤️ by Anas</p>
             </footer>
         </div>

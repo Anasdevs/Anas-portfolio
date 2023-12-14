@@ -17,6 +17,7 @@ import gitImg from './Images/gitImg.svg'
 import githubImg from './Images/githubb.png'
 import apiImg from './Images/api.png'
 import aws from './Images/aws.svg'
+import postman from './Images/postmanicon.svg'
 
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
@@ -31,7 +32,7 @@ export default function Skills() {
     { image: reactImg, title: 'ReactJS' },
     { image: nextImg, title: 'Next.js' },
     { image: djangoImg, title: 'Django' },
-    { image: apiImg, title: 'API' },
+    { image: postman, title: 'Postman'},
     { image: mysqlImg, title: 'MySql' },
     { image: nginxImg, title: 'Nginx' },
     { image: wordpressImg, title: 'Wordpress' },

@@ -6,6 +6,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 import ams from './Images/ams.png';
 import filedownloaderImg from './Images/filedownloader.png'
+import stockflowImg from './Images/stockflow.png'
 import shortyScreenshot from './Images/shorty.png'
 import shaders from './Images/shaders.png'
 import textutils from './Images/textutils.png'
@@ -17,6 +18,8 @@ import wordpressImg from './Images/wordpress.png'
 import htmlImg from './Images/html.png'
 import cssImg from './Images/css.png'
 import javascriptImg from './Images/javascript.svg'
+import bootstrapImg from './Images/bootstrapImg.png'
+
 
 const techImages = {
   'React': reactImg,
@@ -26,6 +29,7 @@ const techImages = {
   'Html': htmlImg,
   'CSS': cssImg,
   'Javascript': javascriptImg,
+  'Bootstrap' : bootstrapImg
 
 };
 
@@ -59,11 +63,11 @@ const projectsData = [
     screenshot: filedownloaderImg,
   },
   {
-    title: 'TextUtils',
-    description: 'TextUtils provides you the facility of manipulating the entered text. You can easily convert your text to uppercase or lowercase. Now only this you can also remove the white spaces, copy text. It also tells you the time required to read the text. You can easily copy your modified text and use it.',
-    techUsed: ['React'],
-    githubLink: 'https://github.com/anasdevs',
-    screenshot: textutils,
+    title: 'Stockflow',
+    description: "Stockflow is an inventory management system that simplifies the entire inventory control process, allowing user to effortlessly add new purchase entries, issue items, and maintain a comprehensive inventory ledger. With downloadable reports and multiple filter options, Stockflow provides valuable insights into stock levels.",
+    techUsed: ['Django', 'Html', 'CSS', 'Javascript', 'Bootstrap'],
+    githubLink: 'https://github.com/Anasdevs/Stock-management-system-msi-',
+    screenshot: stockflowImg,
   }
 ];
 
