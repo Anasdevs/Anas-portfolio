@@ -66,7 +66,7 @@ hr {
   height: 20%;
   border-radius: 10px;
   padding: 20px;
-  box-shadow: 8px 20px 80px rgba(120, 91, 224, 0.1);
+  box-shadow: inset 8px 15px 60px rgba(120, 91, 224, 0.1);
   border-width: 3px;
   border-style: solid;
   text-align: center;
