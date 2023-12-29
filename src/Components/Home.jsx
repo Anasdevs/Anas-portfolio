@@ -53,8 +53,8 @@ export default function Home() {
                         <button className="download-cv">
 
                             <a
-                                href="./Anas_Resume.pdf"
-                                download="Anas_Resume.pdf"
+                                href="./Anas(Resume).pdf"
+                                download="Anas(Resume).pdf"
                             >
                                 Download CV
                             </a>
