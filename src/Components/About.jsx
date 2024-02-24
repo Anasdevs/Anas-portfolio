@@ -57,7 +57,7 @@ export default function About() {
                             animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
                             transition={{ duration: 0.5, delay: 0.8 }}
                         >
-                            Feel free to get in touch and connect. I'm always eager to collaborate with fellow creators and innovators.
+                            Along with that I'm also a Winner of {" "} <span className="colored-p">Smart India Hackathon (SIH) 2023</span>.
                         </motion.p>
                     </div>
                 </div>
